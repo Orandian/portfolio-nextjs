@@ -23,7 +23,7 @@ export default function RootLayout({
       <body
         className={`${openSans.variable} antialiased`}
       >
-        <div className="container py-10">
+        <div className="container pt-10 pb-20">
           {children}
         </div>
       </body>
