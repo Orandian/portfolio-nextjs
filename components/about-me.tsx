@@ -6,7 +6,7 @@ const AboutMe = () => {
       <p>
         I&apos;m a passionate software engineer with over 4 years of
         experience building user-friendly and scalable web and mobile
-        applications. I specialize in frontend development using React, React
+        applications. I specialize in frontend development using React, Next js, React
         Native, and Vue, and also work with backend technologies like Node.js,
         Laravel, and Spring Boot to create complete end-to-end solutions.
       </p>
