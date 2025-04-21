@@ -16,17 +16,17 @@ export default function Navigator() {
   const pathname = usePathname();
 
   return (
-    <nav className="w-full py-10 bg-white fixed bottom-0 z-50">
+    <nav className="w-full py-10 fixed bottom-0 z-50">
       <ul className="flex space-x-6 text-sm md:text-base">
         {navItems.map((item) => (
           <li key={item.name}>
             <Link
               href={item.href}
               className={clsx(
-                "hover:text-black transition-colors",
+                "hover:text-white transition-colors",
                 pathname === item.href
-                  ? "text-black font-medium underline underline-offset-4"
-                  : "text-gray-700"
+                  ? "text-white font-medium underline underline-offset-4"
+                  : "text-white"
               )}
             >
               {item.name}
