@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <section className="space-y-4">
+    <section className="space-y-4 text-gray-400">
       <p>
         I&apos;m a passionate software engineer with over 4 years of
         experience building user-friendly and scalable web and mobile

@@ -5,7 +5,7 @@ import experienceList from "@/data/experience";
 const Experience = () => {
   return (
     <section>
-      <h2 className="text-2xl font-bold mb-6">Experience</h2>
+      <h2 className="text-2xl font-bold mb-6 text-gray-300">Experience</h2>
       {experienceList.map((item, index) => (
         <ExperienceItem key={index} {...item} />
       ))}

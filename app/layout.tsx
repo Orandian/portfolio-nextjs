@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${openSans.variable} antialiased`}>
+      <body className={`${openSans.variable} antialiased bg-black`}>
         <GridBackground>
           <div className="container pt-10 pb-32 z-20">{children}</div>
         </GridBackground>

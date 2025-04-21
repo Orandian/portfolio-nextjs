@@ -4,7 +4,7 @@ import Navigator from "@/components/navigator";
 const page = () => {
   return (
     <div>
-      <h1 className="text-2xl font-bold mb-6">Contact Me</h1>
+      <h1 className="text-2xl font-bold mb-6 text-gray-300">Contact Me</h1>
       <ContactMe />
       <Navigator />
     </div>

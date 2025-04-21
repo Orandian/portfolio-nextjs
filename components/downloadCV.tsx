@@ -1,6 +1,6 @@
 const DownloadCVButton = () => {
   return (
-    <div className="flex md:items-center md:flex-row flex-col space-y-4 md:space-y-0 space-x-0 md:space-x-2">
+    <div className="flex md:items-center md:flex-row flex-col space-y-4 md:space-y-0 space-x-0 md:space-x-2 text-gray-400">
       <p>For more details -</p>
       <div className="flex items-center space-x-2">
         <a
