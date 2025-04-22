@@ -13,7 +13,7 @@ export default function Skills() {
               {cat.skills.map((skill) => (
                 <span
                   key={skill}
-                  className="text-sm bg-gray-700 text-gray-200 px-3 py-1 rounded-full border border-gray-400"
+                  className="text-sm text-gray-300 px-3 py-1 rounded-full border border-gray-400"
                 >
                   {skill}
                 </span>

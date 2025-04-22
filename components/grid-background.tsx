@@ -3,7 +3,7 @@ import React from "react";
 
 const GridBackground = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="relative flex h-full w-full items-center justify-center bg-black dark:bg-black">
+    <div className="relative flex h-full w-full items-center justify-center bg-[#030712] dark:bg-[#030712]">
       <div
         className={cn(
           "fixed top-0 inset-0",
@@ -13,7 +13,6 @@ const GridBackground = ({ children }: { children: React.ReactNode }) => {
         )}
       />
       <div className="pointer-events-none absolute inset-0 flex items-center justify-center"></div>
-
       {children}
     </div>
   );
