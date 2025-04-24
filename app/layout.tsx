@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import GridBackground from "@/components/grid-background";
-import GameButton from "@/components/game-button";
+// import GameButton from "@/components/game-button";
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
@@ -25,7 +25,7 @@ export default function RootLayout({
       <body className={`${openSans.variable} antialiased bg-black`}>
         <GridBackground>
           <div className="container pt-10 pb-32 z-20">{children}</div>
-          <GameButton />
+          {/* <GameButton /> */}
         </GridBackground>
       </body>
     </html>
