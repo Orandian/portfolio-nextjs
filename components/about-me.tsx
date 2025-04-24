@@ -1,6 +1,22 @@
+"use client"
+
 import React from 'react'
 
 const AboutMe = () => {
+  // const experienceText = useMemo(() => {
+  //   const startDate = new Date(2021, 5); // June 2021
+  //   const now = new Date();
+
+  //   const diffInMs = now.getTime() - startDate.getTime();
+  //   const diffInYears = diffInMs / (1000 * 60 * 60 * 24 * 365.25);
+
+  //   const roundedToOneDecimal = Number(diffInYears.toFixed(1));
+  //   const intPart = Math.trunc(roundedToOneDecimal);
+
+  //   return roundedToOneDecimal === intPart
+  //     ? `${intPart} years`
+  //     : `over ${intPart} years`;
+  // }, []);
   return (
     <section className="space-y-4 text-gray-400">
       <p>
