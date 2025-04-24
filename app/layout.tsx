@@ -3,6 +3,7 @@ import { Open_Sans } from "next/font/google";
 import "./globals.css";
 import GridBackground from "@/components/grid-background";
 import GameButton from "@/components/game-button";
+import ConfirmBox from "@/components/confirmbox";
 
 const openSans = Open_Sans({
   variable: "--font-open-sans",
@@ -26,6 +27,8 @@ export default function RootLayout({
         <GridBackground>
           <div className="container pt-10 pb-32 z-20">{children}</div>
           <GameButton />
+
+          <ConfirmBox />
         </GridBackground>
       </body>
     </html>
